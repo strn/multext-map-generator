@@ -1,0 +1,1648 @@
+{
+    "Metadata": {
+        "Version": "5",
+        "URL": "https://nl.ijs.si/ME/Vault/V5/msd/html/msd-sr.html"
+    },
+    "Noun": {
+        "comment": "Именица",
+        "specification": [
+            {
+                "attribute": "Category",
+                "position": 0,
+                "values": [
+                    {
+                        "value": "Noun",
+                        "code": "N"
+                    }
+                ]
+            },
+            {
+                "attribute": "Type",
+                "position": 1,
+                "values": [
+                    {
+                        "value": "common",
+                        "value_mt": "властита",
+                        "code": "c"
+                    },
+                    {
+                        "value": "proper",
+                        "value_mt": "заједничка",
+                        "code": "p"
+                    }
+                ] 
+            },
+            {
+                "attribute": "Gender",
+                "position": 2,
+                "values": [
+                    {
+                        "value": "masculine",
+                        "value_mt": "мушки",
+                        "code": "m"
+                    },
+                    {
+                        "value": "feminine",
+                        "value_mt": "женски",
+                        "code": "f"
+                    },
+                    {
+                        "value": "neuter",
+                        "value_mt": "средњи",
+                        "code": "n"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ] 
+            },
+            {
+                "attribute": "Number",
+                "position": 3,
+                "values": [
+                    {
+                        "value": "singular",
+                        "value_mt": "једнина",
+                        "code": "s"
+                    },
+                    {
+                        "value": "plural",
+                        "value_mt": "множина",
+                        "code": "p"
+                    },
+                    {
+                        "value": "count",
+                        "value_mt": "бројиво",
+                        "code": "t"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Case",
+                "position": 4,
+                "values": [
+                    {
+                        "value": "nominative",
+                        "value_mt": "номинатив",
+                        "code": "n"
+                    },
+                    {
+                        "value": "genitive",
+                        "value_mt": "генитив",
+                        "code": "g"
+                    },
+                    {
+                        "value": "dative",
+                        "value_mt": "датив",
+                        "code": "d"
+                    },
+                    {
+                        "value": "accusative",
+                        "value_mt": "акузатив",
+                        "code": "a"
+                    },
+                    {
+                        "value": "vocative",
+                        "value_mt": "вокатив",
+                        "code": "v"
+                    },
+                    {
+                        "value": "instrumental",
+                        "value_mt": "инструментал",
+                        "code": "i"
+                    },
+                    {
+                        "value": "locative",
+                        "value_mt": "локатив",
+                        "code": "l"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Animate",
+                "position": 7,
+                "values": [
+                    {
+                        "value": "no",
+                        "value_mt": "не",
+                        "code": "n"
+                    },
+                    {
+                        "value": "yes",
+                        "value_mt": "да",
+                        "code": "y"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            }
+        ]
+    },
+    "Verb": {
+        "comment": "Глагол",
+        "specification": [
+            {
+                "attribute": "Category",
+                "position": 0,
+                "values": [
+                    {
+                        "value": "Verb",
+                        "value_mt": "Глагол",
+                        "code": "V"
+                    }
+                ]
+            },
+            {
+                "attribute": "Type",
+                "position": 1,
+                "values": [
+                    {
+                        "value": "main",
+                        "value_mt": "главни",
+                        "code": "m"
+                    },
+                    {
+                        "value": "auxiliary",
+                        "value_mt": "помоћни",
+                        "code": "a"
+                    },
+                    {
+                        "value": "modal",
+                        "value_mt": "",
+                        "code": "o"
+                    },
+                    {
+                        "value": "copula",
+                        "value_mt": "",
+                        "code": "c"
+                    }
+                ]
+            },
+            {
+                "attribute": "VForm",
+                "position": 2,
+                "values": [
+                    {
+                        "value": "indicative",
+                        "code": "i"
+                    },
+                    {
+                        "value": "imperative",
+                        "value_mt": "заповедни",
+                        "code": "m"
+                    },
+                    {
+                        "value": "conditional",
+                        "value_mt": "кондиционал",
+                        "code": "c"
+                    },
+                    {
+                        "value": "infinitive",
+                        "value_mt": "инфинитив",
+                        "code": "n"
+                    },
+                    {
+                        "value": "participle",
+                        "value_mt": "",
+                        "code": "p"
+                    },
+                    {
+                        "value": "gerund",
+                        "value_mt": "",
+                        "code": "g"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Tense",
+                "position": 3,
+                "values": [
+                    {
+                        "value": "present",
+                        "value_mt": "презент",
+                        "code": "p"
+                    },
+                    {
+                        "value": "imperfect",
+                        "value_mt": "имперфект",
+                        "code": "i"
+                    },
+                    {
+                        "value": "future",
+                        "value_mt": "футур",
+                        "code": "f"
+                    },
+                    {
+                        "value": "past",
+                        "value_mt": "перфект",
+                        "code": "s"
+                    },
+                    {
+                        "value": "pluperfect",
+                        "value_mt": "плусквамперфект",
+                        "code": "l"
+                    },
+                    {
+                        "value": "aorist",
+                        "value_mt": "аорист",
+                        "code": "a"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Person",
+                "position": 4,
+                "values": [
+                    {
+                        "value": "first",
+                        "value_mt": "прво",
+                        "code": "1"
+                    },
+                    {
+                        "value": "second",
+                        "value_mt": "друго",
+                        "code": "2"
+                    },
+                    {
+                        "value": "third",
+                        "value_mt": "треће",
+                        "code": "3"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Number",
+                "position": 5,
+                "values": [
+                    {
+                        "value": "singular",
+                        "value_mt": "једнина",
+                        "code": "s"
+                    },
+                    {
+                        "value": "plural",
+                        "value_mt": "множина",
+                        "code": "p"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Gender",
+                "position": 6,
+                "values": [
+                    {
+                        "value": "masculine",
+                        "value_mt": "мушки",
+                        "code": "m"
+                    },
+                    {
+                        "value": "feminine",
+                        "value_mt": "женски",
+                        "code": "f"
+                    },
+                    {
+                        "value": "neuter",
+                        "value_mt": "средњи",
+                        "code": "n"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Voice",
+                "position": 7,
+                "values": [
+                    {
+                        "value": "active",
+                        "value_mt": "радни",
+                        "code": "a"
+                    },
+                    {
+                        "value": "passive",
+                        "value_mt": "трпни",
+                        "code": "p"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Negative",
+                "position": 8,
+                "values": [
+                    {
+                        "value": "no",
+                        "value_mt": "не",
+                        "code": "n"
+                    },
+                    {
+                        "value": "yes",
+                        "value_mt": "да",
+                        "code": "y"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Clitic",
+                "position": 10,
+                "values": [
+                    {
+                        "value": "no",
+                        "value_mt": "не",
+                        "code": "n"
+                    },
+                    {
+                        "value": "yes",
+                        "value_mt": "да",
+                        "code": "y"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Aspect",
+                "position": 14,
+                "values": [
+                    {
+                        "value": "progressive",
+                        "value_mt": "",
+                        "code": "p"
+                    },
+                    {
+                        "value": "perfective",
+                        "value_mt": "",
+                        "code": "e"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            }
+        ]
+    },
+    "Adjective": {
+        "comment": "Придев",
+        "specification": [
+            {
+                "attribute": "Category",
+                "position": 0,
+                "values": [
+                    {
+                        "value": "Adjective",
+                        "value_mt": "Придев",
+                        "code": "A"
+                    }
+                ]
+            },
+            {
+                "attribute": "Type",
+                "position": 1,
+                "values": [
+                    {
+                        "value": "qualificative",
+                        "value_mt": "",
+                        "code": "f"
+                    },
+                    {
+                        "value": "possessive",
+                        "value_mt": "",
+                        "code": "s"
+                    },
+                    {
+                        "value": "ordinal",
+                        "value_mt": "",
+                        "code": "o"
+                    }
+                ]
+            },
+            {
+                "attribute": "Degree",
+                "position": 2,
+                "values": [
+                    {
+                        "value": "positive",
+                        "value_mt": "позитив",
+                        "code": "p"
+                    },
+                    {
+                        "value": "comparative",
+                        "value_mt": "компаратив",
+                        "code": "c"
+                    },
+                    {
+                        "value": "superlative",
+                        "value_mt": "суперлатив",
+                        "code": "s"
+                    },
+                    {
+                        "value": "elative",
+                        "value_mt": "елатив",
+                        "code": "e"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Gender",
+                "attribute_mt": "Род",
+                "position": 3,
+                "values": [
+                    {
+                        "value": "masculine",
+                        "value_mt": "мушки",
+                        "code": "m"
+                    },
+                    {
+                        "value": "feminine",
+                        "value_mt": "женски",
+                        "code": "f"
+                    },
+                    {
+                        "value": "neuter",
+                        "value_mt": "средњи",
+                        "code": "n"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Number",
+                "attribute_mt": "Број",
+                "position": 4,
+                "values": [
+                    {
+                        "value": "singular",
+                        "value_mt": "једнина",
+                        "code": "s"
+                    },
+                    {
+                        "value": "plural",
+                        "value_mt": "множина",
+                        "code": "p"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Case",
+                "attribute_mt": "Падеж",
+                "position": 5,
+                "values": [
+                    {
+                        "value": "nominative",
+                        "value_mt": "номинатив",
+                        "code": "n"
+                    },
+                    {
+                        "value": "genitive",
+                        "value_mt": "генитив",
+                        "code": "g"
+                    },
+                    {
+                        "value": "dative",
+                        "value_mt": "датив",
+                        "code": "d"
+                    },
+                    {
+                        "value": "accusative",
+                        "value_mt": "акузатив",
+                        "code": "a"
+                    },
+                    {
+                        "value": "vocative",
+                        "value_mt": "вокатив",
+                        "code": "v"
+                    },
+                    {
+                        "value": "instrumental",
+                        "value_mt": "инструментал",
+                        "code": "i"
+                    },
+                    {
+                        "value": "locative",
+                        "value_mt": "локатив",
+                        "code": "l"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Definiteness",
+                "attribute_mt": "",
+                "position": 6,
+                "values": [
+                    {
+                        "value": "no",
+                        "value_mt": "не",
+                        "code": "n"
+                    },
+                    {
+                        "value": "yes",
+                        "value_mt": "да",
+                        "code": "y"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Animate",
+                "attribute_mt": "",
+                "position": 8,
+                "values": [
+                    {
+                        "value": "no",
+                        "value_mt": "не",
+                        "code": "n"
+                    },
+                    {
+                        "value": "yes",
+                        "value_mt": "да",
+                        "code": "y"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            }
+        ]
+    },
+    "Pronoun": {
+        "comment": "Заменица",
+        "specification": [
+            {
+                "attribute": "Category",
+                "attribute_mt": "",
+                "position": 0,
+                "values": [
+                    {
+                        "value": "Pronoun",
+                        "value_mt": "Заменица",
+                        "code": "P"
+                    }
+                ]
+            },
+            {
+                "attribute": "Type",
+                "attribute_mt": "Тип",
+                "position": 1,
+                "values": [
+                    {
+                        "value": "personal",
+                        "value_mt": "лична",
+                        "code": "p"
+                    },
+                    {
+                        "value": "demonstrative",
+                        "value_mt": "показна",
+                        "code": "d"
+                    },
+                    {
+                        "value": "indefinite",
+                        "value_mt": "неодређена",
+                        "code": "i"
+                    },
+                    {
+                        "value": "possessive",
+                        "value_mt": "присвојна",
+                        "code": "s"
+                    },
+                    {
+                        "value": "interrogative",
+                        "value_mt": "упитна",
+                        "code": "q"
+                    },
+                    {
+                        "value": "relative",
+                        "value_mt": "односна",
+                        "code": "r"
+                    },
+                    {
+                        "value": "reflexive",
+                        "value_mt": "повратна",
+                        "code": "x"
+                    },
+                    {
+                        "value": "negative",
+                        "value_mt": "одрична",
+                        "code": "z"
+                    },
+                    {
+                        "value": "general",
+                        "value_mt": "општа",
+                        "code": "g"
+                    }
+                ]
+            },
+            {
+                "attribute": "Person",
+                "attribute_mt": "Лице",
+                "position": 2,
+                "values": [
+                    {
+                        "value": "first",
+                        "value_mt": "прво",
+                        "code": "1"
+                    },
+                    {
+                        "value": "second",
+                        "value_mt": "друго",
+                        "code": "2"
+                    },
+                    {
+                        "value": "third",
+                        "value_mt": "треће",
+                        "code": "3"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Gender",
+                "attribute_mt": "Род",
+                "position": 3,
+                "values": [
+                    {
+                        "value": "masculine",
+                        "value_mt": "мушки",
+                        "code": "m"
+                    },
+                    {
+                        "value": "feminine",
+                        "value_mt": "женски",
+                        "code": "f"
+                    },
+                    {
+                        "value": "neuter",
+                        "value_mt": "средњи",
+                        "code": "n"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Number",
+                "attribute_mt": "Број",
+                "position": 4,
+                "values": [
+                    {
+                        "value": "singular",
+                        "value_mt": "једнина",
+                        "code": "s"
+                    },
+                    {
+                        "value": "plural",
+                        "value_mt": "множина",
+                        "code": "p"
+                    },
+                    {
+                        "value": "dual",
+                        "value_mt": "двојина",
+                        "code": "d"
+                    },
+                    {
+                        "value": "paucal",
+                        "value_mt": "",
+                        "code": "c"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Case",
+                "attribute_mt": "Падеж",
+                "position": 5,
+                "values": [
+                    {
+                        "value": "nominative",
+                        "value_mt": "номинатив",
+                        "code": "n"
+                    },
+                    {
+                        "value": "genitive",
+                        "value_mt": "генитив",
+                        "code": "g"
+                    },
+                    {
+                        "value": "dative",
+                        "value_mt": "датив",
+                        "code": "d"
+                    },
+                    {
+                        "value": "accusative",
+                        "value_mt": "акузатив",
+                        "code": "a"
+                    },
+                    {
+                        "value": "vocative",
+                        "value_mt": "вокатив",
+                        "code": "v"
+                    },
+                    {
+                        "value": "instrumental",
+                        "value_mt": "инструментал",
+                        "code": "i"
+                    },
+                    {
+                        "value": "locative",
+                        "value_mt": "локатив",
+                        "code": "l"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Owner_Number",
+                "attribute_mt": "",
+                "position": 6,
+                "values": [
+                    {
+                        "value": "singular",
+                        "value_mt": "једнина",
+                        "code": "s"
+                    },
+                    {
+                        "value": "plural",
+                        "value_mt": "множина",
+                        "code": "p"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Owner_Gender",
+                "attribute_mt": "",
+                "position": 7,
+                "values": [
+                    {
+                        "value": "masculine",
+                        "value_mt": "мушки",
+                        "code": "m"
+                    },
+                    {
+                        "value": "feminine",
+                        "value_mt": "женски",
+                        "code": "f"
+                    },
+                    {
+                        "value": "neuter",
+                        "value_mt": "средњи",
+                        "code": "n"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Clitic",
+                "attribute_mt": "",
+                "position": 8,
+                "values": [
+                    {
+                        "value": "no",
+                        "value_mt": "не",
+                        "code": "n"
+                    },
+                    {
+                        "value": "yes",
+                        "value_mt": "да",
+                        "code": "y"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Syntactic_Type",
+                "attribute_mt": "",
+                "position": 10,
+                "values": [
+                    {
+                        "value": "nominal",
+                        "value_mt": "",
+                        "code": "n"
+                    },
+                    {
+                        "value": "adjectival",
+                        "value_mt": "",
+                        "code": "a"
+                    },
+                    {
+                        "value": "adverbial",
+                        "value_mt": "",
+                        "code": "r"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Animate",
+                "value_mt": "",
+                "position": 12,
+                "values": [
+                    {
+                        "value": "no",
+                        "value_mt": "не",
+                        "code": "n"
+                    },
+                    {
+                        "value": "yes",
+                        "value_mt": "да",
+                        "code": "y"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "code": "-"
+                    }
+                ]
+            }
+        ]
+    },
+    "Adverb":{
+        "comment": "Прилог",
+        "specification": [
+            {
+                "attribute": "Category",
+                "value_mt": "Категорија",
+                "position": 0,
+                "values": [
+                    {
+                        "value": "Adverb",
+                        "value_mt": "Прилог",
+                        "code": "R"
+                    }
+                ]
+            },
+            {
+                "attribute": "Type",
+                "attribute_mt": "Тип",
+                "position": 1,
+                "values": [
+                    {
+                        "value": "general",
+                        "value_mt": "",
+                        "code": "g"
+                    },
+                    {
+                        "value": "negative",
+                        "value_mt": "",
+                        "code": "z"
+                    },
+                    {
+                        "value": "adjectival",
+                        "value_mt": "",
+                        "code": "a"
+                    },
+                    {
+                        "value": "verbal",
+                        "value_mt": "",
+                        "code": "v"
+                    },
+                    {
+                        "value": "interrogative",
+                        "value_mt": "упитни",
+                        "code": "q"
+                    }
+                ]
+            },
+            {
+                "attribute": "Degree",
+                "attribute_mt": "Степен",
+                "position": 2,
+                "values": [
+                    {
+                        "value": "positive",
+                        "value_mt": "позитив",
+                        "code": "p"
+                    },
+                    {
+                        "value": "comparative",
+                        "value_mt": "компаратив",
+                        "code": "c"
+                    },
+                    {
+                        "value": "superlative",
+                        "value_mt": "суперлатив",
+                        "code": "s"
+                    },
+                    {
+                        "value": "elative",
+                        "value_mt": "елатив",
+                        "code": "e"
+                    }
+                ]
+            }
+        ]
+    },
+    "Adposition": {
+        "comment": "Предлог",
+        "specification": [
+            {
+                "attribute": "Category",
+                "attribute_mt": "Категорија",
+                "position": 0,
+                "values": [
+                    {
+                        "value": "Adposition",
+                        "value_mt": "Предлог",
+                        "code": "S"
+                    }
+                ]
+            },
+            {
+                "attribute": "Type",
+                "attribute_mt": "Тип",
+                "position": 1,
+                "values": [
+                    {
+                        "value": "preposition",
+                        "value_mt": "",
+                        "code": "p"
+                    }
+                ]
+            },
+            {
+                "attribute": "Formation",
+                "attribute_mt": "",
+                "position": 2,
+                "values": [
+                    {
+                        "value": "simple",
+                        "value_mt": "",
+                        "code": "s"
+                    },
+                    {
+                        "value": "compound",
+                        "value_mt": "",
+                        "code": "c"
+                    }
+                ]
+            },
+            {
+                "attribute": "Case",
+                "attribute_mt": "Падеж",
+                "position": 3,
+                "values": [
+                    {
+                        "value": "genitive",
+                        "value_mt": "генитив",
+                        "code": "g"
+                    },
+                    {
+                        "value": "dative",
+                        "value_mt": "датив",
+                        "code": "d"
+                    },
+                    {
+                        "value": "accusative",
+                        "value_mt": "акузатив",
+                        "code": "a"
+                    },
+                    {
+                        "value": "locative",
+                        "value_mt": "локатив",
+                        "code": "l"
+                    },
+                    {
+                        "value": "instrumental",
+                        "value_mt": "инструментал",
+                        "code": "i"
+                    }
+                ]
+            }
+        ]
+    },
+    "Conjunction": {
+        "comment": "Везник",
+        "specification": [
+            {
+                "attribute": "Category",
+                "attribute_mt": "Категорија",
+                "position": 0,
+                "values": [
+                    {
+                        "value": "Conjunction",
+                        "value_mt": "Везник",
+                        "code": "C"
+                    }
+                ]
+            },
+            {
+                "attribute": "Type",
+                "attribute_mt": "Тип",
+                "position": 1,
+                "values": [
+                    {
+                        "value": "coordinating",
+                        "value_mt": "",
+                        "code": "c"
+                    },
+                    {
+                        "value": "subordinating",
+                        "value_mt": "",
+                        "code": "s"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "value_mt": "",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Formation",
+                "attribute_mt": "",
+                "position": 2,
+                "values": [
+                    {
+                        "value": "simple",
+                        "value_mt": "",
+                        "code": "s"
+                    },
+                    {
+                        "value": "compound",
+                        "value_mt": "",
+                        "code": "c"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "value_mt": "",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Coord_Type",
+                "attribute_mt": "",
+                "position": 3,
+                "values": [
+                    {
+                        "value": "sentence",
+                        "value_mt": "реченица",
+                        "code": "s"
+                    },
+                    {
+                        "value": "word",
+                        "value_mt": "реч",
+                        "code": "w"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "value_mt": "",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Sub_Type",
+                "attribute_mt": "",
+                "position": 4,
+                "values": [
+                    {
+                        "value": "negative",
+                        "value_mt": "негативан",
+                        "code": "z"
+                    },
+                    {
+                        "value": "positive",
+                        "value_mt": "позитиван",
+                        "code": "p"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "value_mt": "",
+                        "code": "-"
+                    }
+                ]
+            }
+        ]
+    },
+    "Numeral": {
+        "comment": "Број",
+        "specification": [
+            {
+                "attribute": "Category",
+                "attribute_mt": "Категорија",
+                "position": 0,
+                "values": [
+                    {
+                        "value": "Numeral",
+                        "value_mt": "Број",
+                        "code": "M"
+                    }
+                ]
+            },
+            {
+                "attribute": "Type",
+                "attribute_mt": "Тип",
+                "position": 1,
+                "values": [
+                    {
+                        "value": "cardinal",
+                        "value_mt": "",
+                        "code": "c"
+                    },
+                    {
+                        "value": "ordinal",
+                        "value_mt": "редни",
+                        "code": "o"
+                    },
+                    {
+                        "value": "multiple",
+                        "value_mt": "",
+                        "code": "m"
+                    },
+                    {
+                        "value": "collect",
+                        "value_mt": "",
+                        "code": "l"
+                    },
+                    {
+                        "value": "special",
+                        "value_mt": "посебни",
+                        "code": "s"
+                    }
+                ]
+            },
+            {
+                "attribute": "Gender",
+                "attribute_mt": "Род",
+                "position": 2,
+                "values": [
+                    {
+                        "value": "masculine",
+                        "value_mt": "мушки",
+                        "code": "m"
+                    },
+                    {
+                        "value": "feminine",
+                        "value_mt": "женски",
+                        "code": "f"
+                    },
+                    {
+                        "value": "neuter",
+                        "value_mt": "средњи",
+                        "code": "n"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "value_mt": "",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Number",
+                "attribute_mt": "Број",
+                "position": 3,
+                "values": [
+                    {
+                        "value": "singular",
+                        "value_mt": "једнина",
+                        "code": "s"
+                    },
+                    {
+                        "value": "plural",
+                        "value_mt": "множина",
+                        "code": "p"
+                    },
+                    {
+                        "value": "dual",
+                        "value_mt": "двојина",
+                        "code": "d"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "value_mt": "",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Case",
+                "attribute_mt": "Падеж",
+                "position": 4,
+                "values": [
+                    {
+                        "value": "nominative",
+                        "value_mt": "номинатив",
+                        "code": "n"
+                    },
+                    {
+                        "value": "genitive",
+                        "value_mt": "генитив",
+                        "code": "g"
+                    },
+                    {
+                        "value": "dative",
+                        "value_mt": "датив",
+                        "code": "d"
+                    },
+                    {
+                        "value": "accusative",
+                        "value_mt": "акузатив",
+                        "code": "a"
+                    },
+                    {
+                        "value": "locative",
+                        "value_mt": "локатив",
+                        "code": "l"
+                    },
+                    {
+                        "value": "instrumental",
+                        "value_mt": "инструментал",
+                        "code": "i"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "value_mt": "",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Form",
+                "attribute_mt": "Облик",
+                "position": 5,
+                "values": [
+                    {
+                        "value": "digit",
+                        "value_mt": "цифра",
+                        "code": "d"
+                    },
+                    {
+                        "value": "roman",
+                        "value_mt": "римски",
+                        "code": "r"
+                    },
+                    {
+                        "value": "letter",
+                        "value_mt": "слова",
+                        "code": "l"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "value_mt": "",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Animate",
+                "attribute_mt": "",
+                "position": 9,
+                "values": [
+                    {
+                        "value": "no",
+                        "value_mt": "не",
+                        "code": "n"
+                    },
+                    {
+                        "value": "yes",
+                        "value_mt": "да",
+                        "code": "y"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "value_mt": "",
+                        "code": "-"
+                    }
+                ]
+            }
+        ]
+    },
+    "Particle": {
+        "comment": "Речца",
+        "specification": [
+            {
+                "attribute": "Category",
+                "attribute_mt": "Категорија",
+                "position": 0,
+                "values": [
+                    {
+                        "value": "Particle",
+                        "value_mt": "Речца",
+                        "code": "Q"
+                    }
+                ]
+            },
+            {
+                "attribute": "Type",
+                "attribute_mt": "Тип",
+                "position": 1,
+                "values": [
+                    {
+                        "value": "negative",
+                        "value_mt": "одрична",
+                        "code": "z"
+                    },
+                    {
+                        "value": "interrogative",
+                        "value_mt": "упитна",
+                        "code": "q"
+                    },
+                    {
+                        "value": "modal",
+                        "value_mt": "модална",
+                        "code": "o"
+                    },
+                    {
+                        "value": "affirmative",
+                        "value_mt": "потврдна",
+                        "code": "r"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "value_mt": "",
+                        "code": "-"
+                    }
+                ]
+            }
+        ]
+    },
+    "Interjection": {
+        "comment": "Узвик",
+        "specification": [
+            {
+                "attribute": "Category",
+                "attribute_mt": "Категорија",
+                "position": 0,
+                "values": [
+                    {
+                        "value": "Interjection",
+                        "value_mt": "Узвик",
+                        "code": "I"
+                    }
+                ]
+            },
+            {
+                "attribute": "Formation",
+                "attribute_mt": "",
+                "position": 1,
+                "values": [
+                    {
+                        "value": "simple",
+                        "value_mt": "прост",
+                        "code": "s"
+                    },
+                    {
+                        "value": "compound",
+                        "value_mt": "сложен",
+                        "code": "c"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "value_mt": "",
+                        "code": "-"
+                    }
+                ]
+            }
+        ]
+    },
+    "Abbreviation": {
+        "comment": "Скраћеница",
+        "specification": [
+            {
+                "attribute": "Category",
+                "attribute_mt": "Категорија",
+                "position": 0,
+                "values": [
+                    {
+                        "value": "Abbreviation",
+                        "value_mt": "Скраћеница",
+                        "code": "Y"
+                    }
+                ]
+            },
+            {
+                "attribute": "Syntactic_Type",
+                "attribute_mt": "",
+                "position": 1,
+                "values": [
+                    {
+                        "value": "nominal",
+                        "value_mt": "",
+                        "code": "n"
+                    },
+                    {
+                        "value": "adverbial",
+                        "value_mt": "",
+                        "code": "r"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "value_mt": "",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Gender",
+                "attribute_mt": "Род",
+                "position": 2,
+                "values": [
+                    {
+                        "value": "masculine",
+                        "value_mt": "мушки",
+                        "code": "m"
+                    },
+                    {
+                        "value": "feminine",
+                        "value_mt": "женски",
+                        "code": "f"
+                    },
+                    {
+                        "value": "neuter",
+                        "value_mt": "средњи",
+                        "code": "n"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "value_mt": "",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Number",
+                "attribute_mt": "Број",
+                "position": 3,
+                "values": [
+                    {
+                        "value": "singular",
+                        "value_mt": "једнина",
+                        "code": "s"
+                    },
+                    {
+                        "value": "plural",
+                        "value_mt": "множина",
+                        "code": "p"
+                    },
+                    {
+                        "value": "paucal",
+                        "value_mt": "",
+                        "code": "c"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "value_mt": "",
+                        "code": "-"
+                    }
+                ]
+            },
+            {
+                "attribute": "Case",
+                "attribute_mt": "Падеж",
+                "position": 4,
+                "values": [
+                    {
+                        "value": "nominative",
+                        "value_mt": "номинатив",
+                        "code": "n"
+                    },
+                    {
+                        "value": "genitive",
+                        "value_mt": "генитив",
+                        "code": "g"
+                    },
+                    {
+                        "value": "dative",
+                        "value_mt": "датив",
+                        "code": "d"
+                    },
+                    {
+                        "value": "accusative",
+                        "value_mt": "акузатив",
+                        "code": "a"
+                    },
+                    {
+                        "value": "locative",
+                        "value_mt": "локатив",
+                        "code": "l"
+                    },
+                    {
+                        "value": "instrumental",
+                        "value_mt": "инструментал",
+                        "code": "i"
+                    },
+                    {
+                        "value": "DUMMY",
+                        "value_mt": "",
+                        "code": "-"
+                    }
+                ]
+            }
+        ]
+    },
+    "Residual": {
+        "comment": "Остало",
+        "specification": [
+            {
+                "attribute": "Category",
+                "attribute_mt": "Категорија",
+                "position": 0,
+                "values": [
+                    {
+                        "value": "Residual",
+                        "value_mt": "Остало",
+                        "code": "X"
+                    }
+                ]
+            }
+        ]
+    },
+    "Punctuation": {
+        "comment": "Интерпункција",
+        "specification": [
+            {
+                "attribute": "Category",
+                "attribute_mt": "Категорија",
+                "position": 0,
+                "values": [
+                    {
+                        "value": "Punctuation",
+                        "value_mt": "Интерпункција",
+                        "code": "Z"
+                    }
+                ]
+            }
+        ]
+    }
+}
